@@ -15,7 +15,7 @@
             "email": "ophaant@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "php": "^7.3|^8.1",
