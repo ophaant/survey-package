@@ -1,0 +1,19 @@
+{
+    "name": "ophaant/survey",
+    "description": "A Survey package for laravel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ophaant\\Survey\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ophaant",
+            "email": "ophaant@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
