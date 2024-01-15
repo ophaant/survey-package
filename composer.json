@@ -1,7 +1,7 @@
 {
     "name": "ophaant/survey",
     "description": "A Survey package for laravel",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
