@@ -20,5 +20,15 @@
     "require": {
         "php": "^7.3|^8.1",
         "laravel/framework": "^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ophaant\\Survey\\SurveyServiceProvider"
+            ],
+            "aliases": {
+                "Survey": "Ophaant\\Survey\\Facade"
+            }
+        }
     }
 }
