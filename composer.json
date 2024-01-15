@@ -3,6 +3,7 @@
     "description": "A Survey package for laravel",
     "type": "library",
     "license": "MIT",
+    "version": "1.0",
     "autoload": {
         "psr-4": {
             "Ophaant\\Survey\\": "src/"
@@ -18,6 +19,6 @@
     "prefer-stable": true,
     "require": {
         "php": "^7.3|^8.1",
-        "some-other-package": "^1.0"
+        "laravel": "^9.0|^10.0"
     }
 }
