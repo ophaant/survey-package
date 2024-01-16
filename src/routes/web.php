@@ -1,12 +1,12 @@
 <?php
 
-$namespace = 'Survey\Http\Controllers';
+$namespace = 'Ophaant\Survey\Http\Controllers';
 
 Route::group([
     'namespace' => $namespace,
     'prefix' => 'audit',
 ],function (){
-    Route::get('/',function () {
-        return ['Hello', 'this is audit route'];
-    });
+    Route::get('/', 'SurveyController@index');
+
+    Route::get('/test', 'SurveyController@test');
 });
