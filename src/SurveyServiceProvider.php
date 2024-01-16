@@ -10,6 +10,10 @@ class SurveyServiceProvider extends ServiceProvider
     {
         $this->loadRoutesFrom(__DIR__.'/routes/web.php');
         $this->loadViewsFrom(__DIR__.'/./../resources/views', 'survey');
+
+        $this->publishes([
+            __DIR__.'/./../database/migrations/' => database_path('migrations')
+        ], 'survey-migrations');
     }
 
     public function register()
